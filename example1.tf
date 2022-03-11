@@ -90,7 +90,7 @@ resource "aws_route_table_association" "association1" {
 }
 
 resource "aws_key_pair" "tf_key" {
-  key_name   = "deployer-key2"
+  key_name   = "deployer-key3"
   public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDl5RT4W/UUy12zRnjRoaLTUzAt5LPBpYbs+KZ0WhokWbZCGCAYWy3nzhFKpX2px5ZvXV0Xm2n8UmugZGRMeKmISps+xPxEINK5No8pIewi8N97OrjU9ZwSBsY/bfb7scXc7yfGVk7FOU+ZbtaYjhSHZaxSr75HtMVaZyZ2Of6LZJRe0XENfFL2l/N1twCJ70cQuGsslB196vuxutm2s2906Kr9YBmPCAcR1uLGttf3lAIodFYREVvGHUfX1uPagsRD9Sls/M37WAzilj4yxHydhYdTsD+7VW3KmHS+NUBeyHXRmAoj3JQ6PnIdRnAd5jSsPVIc8RRTrE5aymC3cPROV8oIW8Sy+RpKTcJxzxZdjodltqVAA5U/ugiKYyAneMtdHFA8W9hgbn2JitjajrM6ceYWSjFQtd5Pj38W+LG4c9v+Jdst7MihVyyXAQJixQbkCJVJWD1iwwVAEKfIHoXAoo8pyNgRMUGGO95ujoHdod/yg6dLmpRT6ApjTwUQ/g8= bdavidson@scratch-2022"
 }
 
